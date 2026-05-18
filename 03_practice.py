@@ -19,4 +19,6 @@ for num in nums:
 print(f"the total even numbers are {even_count}")
 
 """ use of state varialbe 
+
+        -If your loop's final answer depends on comparing or combining information from different iterations → you need a state variable outside the loop.
     """
