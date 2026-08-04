@@ -1,10 +1,10 @@
-s = "abca"
+s = "abcadefgh"
 
 seen = set()
 left = 0
 max_len = 0
 
-for right in range(len(s)):
+for right in range(len(s)): # iterating over string 
 
     while s[right] in seen:
         seen.remove(s[left])
